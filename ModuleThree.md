@@ -14,6 +14,7 @@
 
 ## `3.2 Edge Locations`
 
+- A region consists of 3 or more Availability Zones.
 - A site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 
 ## `3.3 How to Provision AWS Resources`
