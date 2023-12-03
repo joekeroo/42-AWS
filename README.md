@@ -7,3 +7,4 @@
 - [`Module 1: Introduction to Amazon Web Services`](ModuleOne.md)
 - [`Module 2: Compute in the Cloud`](ModuleTwo.md)
 - [`Module 3: Global Infrastrusture and Reliability`](ModuleThree.md)
+- [`Module 4: Networking`](ModuleFour.md)
