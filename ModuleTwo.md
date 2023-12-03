@@ -1,4 +1,4 @@
-# `Module Two - Compute in the Cloud`
+# `Module 2 - Compute in the Cloud`
 
 ## `Amazon Elastic Compute Cloud (Amazon EC2)`
 

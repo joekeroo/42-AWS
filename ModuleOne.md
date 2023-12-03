@@ -1,4 +1,4 @@
-# `Module One - Introduction to Amazon Web Services`
+# `Module 1 - Introduction to Amazon Web Services`
 
 ## `client-server model`
 
