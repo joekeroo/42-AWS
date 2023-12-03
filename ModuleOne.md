@@ -1,12 +1,12 @@
 # `Module 1 - Introduction to Amazon Web Services`
 
-## `client-server model`
+## `1.1 client-server model`
 
 - `client` can be a web browser or desktop application that a person interacts with to make requests to computer server.
 - `server` can be services, such as Amazon Elastic Compute Cloud (Amazon EC2) – a type of virtual server.
 - When a `client` makes a request, the `server` will evaluate the details of the request and fulfills it by returning the information to the `client`.
 
-## `Cloud Computing`
+## `1.2 Cloud Computing`
 
 - The `on-demand delivery` of IT resources over the internet with `pay-as-you-go` pricing.
 - `on-demand delivery` indicates that AWS has the resource you need, when you need them.

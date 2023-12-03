@@ -1,6 +1,6 @@
 # `Module 2 - Compute in the Cloud`
 
-## `Amazon Elastic Compute Cloud (Amazon EC2)`
+## `2.1 Amazon Elastic Compute Cloud (Amazon EC2)`
 
 - [`Amazon EC2`](https://aws.amazon.com/ec2/) - Provides `secure` and `resizable` compute capacity in the cloud as `Amazon EC2 instances`.
 
@@ -16,7 +16,7 @@
   - `Connect` - Connect to the instance. For example, connect to the instance by logging in and accessing the computer desktop.
   - `Use` - Run commands to install software, add storage, copy and organize files, etc.
 
-## `Amazon EC2 Instance Types`
+## `2.2 Amazon EC2 Instance Types`
 
 - [`Amazon EC2 Instance Types`](https://aws.amazon.com/ec2/instance-types/) - Optimized for different tasks. When selecting an instance type, consider the specific needs of your workloads and applications. This might include requirements for `compute`, `memory`, or `storage` capabilities.
 
@@ -28,7 +28,7 @@
   | Accelerated Computing |        Uses hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs. ( floating-point number calculations, graphics processing, data pattern matching )         |
   |   Storage Optimized   | Designed for workloads that require high, sequential read and write access to large datasets on local storage. ( distributed file systems, data warehousing applications, high-frequency online transaction processing (OLTP) systems ) |
 
-## `Amazon EC2 Pricing`
+## `2.3 Amazon EC2 Pricing`
 
 - Pay only for the compute time that you use.
 - ### `On-Demand`
@@ -61,7 +61,7 @@
   - You can use your existing per-socket, per-core, or per-VM software licenses to help maintain license compliance.
   - You can purchase On-Demand Dedicated Hosts and Dedicated Hosts Reservations. Of all the Amazon EC2 options that were covered, Dedicated Hosts are the most expensive.
 
-## `Scaling Amazon EC2`
+## `2.4 Scaling Amazon EC2`
 
 - ### `Amazon EC2 Auto Scalling`
   - Automatically add or remove Amazon EC2 instances in response to changing application demand.
@@ -69,14 +69,14 @@
   - `Dynamic Scalling` - responds to changing demand.
   - `Predictive scaling` - automatically schedules the right number of Amazon EC2 instances based on predicted demand.
 
-## `Elastic Load Balancing`
+## `2.5 Elastic Load Balancing`
 
 - AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances.
 - A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group.
 - Requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them.
 - For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it.
 
-## `Messaging and Queuing`
+## `2.6 Messaging and Queuing`
 
 - ### `Monolithic Application (Legacy)`
   - Application with tightly coupled components.
@@ -92,7 +92,7 @@
     - `Publish` / `Subscribe` service.
     - Subscribers can be web servers, email addresses, AWS Lambda functions, etc.
 
-## `Additional Compute Services`
+## `2.7 Additional Compute Services`
 
 - ### `Serverless Computing`
 
