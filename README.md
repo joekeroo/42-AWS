@@ -9,3 +9,4 @@
 - [`Module 3: Global Infrastrusture and Reliability`](ModuleThree.md)
 - [`Module 4: Networking`](ModuleFour.md)
 - [`Module 5: Storage and Databases`](ModuleFive.md)
+- [`Module 6: Security`](ModuleSix.md)
