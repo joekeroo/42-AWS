@@ -2,7 +2,7 @@
 
 ## `6.1 AWS Shared Responsibility Model`
 
-![Shared Responsibility Model](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1701774000/b2p5De1Hgool6MU0I0WDMw/tincan/5215426675a09eb3c237d30a006d261309b59486/assets/JmwK4j7IqVDfToXi_ssiWI6HiRWe-b_r6.png)
+![Shared Responsibility Model](assets/ModuleSix/shared-responsibility-model.png)
 
 - ### `Customers: Security in the Cloud`
   - Customers are responsible for the security of everything that they create and put `in the AWS Cloud`.
@@ -30,7 +30,7 @@
     - `IAM policies.`
     - `Multi-factor authentication.`
 - ### `AWS account root user`
-  ![Root Access](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1701774000/b2p5De1Hgool6MU0I0WDMw/tincan/5215426675a09eb3c237d30a006d261309b59486/assets/aFbFxxsEERDhh-MF_G6mCtOEHNBDNNKV4.png)
+  ![Root Access](assets/ModuleSix/root-user.png)
   - #### `Best Practices`
     - Do not use the root user for everyday tasks.
     - Create your first IAM user and assign it permissions to create other users.
@@ -54,7 +54,7 @@
     - Prevent users or roles from having more permissions than needed to perform their tasks.
   - #### `Example`
 
-    ![IAM Policy](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1701774000/b2p5De1Hgool6MU0I0WDMw/tincan/5215426675a09eb3c237d30a006d261309b59486/assets/mpl6qiqDH6ciUAKe_vKf8uGbqJDqmoCNE.png)
+    ![IAM Policy](assets/ModuleSix/iam-policy.png)
 
     - Allows a specific action within Amazon `S3:ListObject`.
     - Mentions a specific bucket ID: `AWSDOC-EXAMPLE-BUCKET`.
@@ -65,7 +65,7 @@
   - Collection of IAM users.
   - All users in the group are granted permissions specified by the policy.
 
-    ![IAM Groups](https://explore.skillbuilder.aws/files/a/w/aws_prod1_docebosaas_com/1701774000/b2p5De1Hgool6MU0I0WDMw/tincan/5215426675a09eb3c237d30a006d261309b59486/assets/qeo00K6Rwaa2hCRP_dJWwAFus-2ObBezE.png)
+    ![IAM Groups](assets/ModuleSix/iam-groups.png)
 
 - ### `IAM Roles`
 
@@ -79,3 +79,42 @@
   - Provides an extra layer of security for your AWS account.
 
 ## `4.3 AWS Organizations`
+
+- Consolidate and manage multiple AWS accounts within a central location.
+- Automatically creates a root, which is the parent container for all the accounts in your organization.
+- Centrally control permissions for the accounts in your organization by using [`service control policies (SCPs)`](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html).
+- `SPC` allows you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
+- ### `Organizational units`
+  - Group accounts into `organizational units (OUs)` to make it easier to manage accounts with similar business or security requirements.
+  - All accounts in the `OU` automatically inherit the permissions specified in the applied policy.
+  - Easily isolate workloads or applications that have specific security requirements.
+
+## `4.4 Compliance`
+
+- ### `AWS Artifact`
+  - Service that provides on-demand access to AWS security and compliance reports and select online agreements.
+  - #### `AWS Artifact Agreements`
+    - Review, accept, and manage agreements for an individual account and for all your accounts in AWS Organizations.
+    - `Use case`: sign an agreement with AWS regarding your use of certain types of information throughout AWS services.
+  - #### `AWS Artifact Reports`
+    - Provide compliance reports from third-party auditors.
+    - `Use case`: access information about their responsibility for complying with certain regulatory standards.
+  - #### `The following are some of the compliance reports and regulations that you can find within AWS Artifact. Each report includes a description of its contents and the reporting period for which the document is valid.`
+    ![Compliance Report and Regulations](assets/ModuleSix/compliance-reports-and-regulations.jpg)
+- ### `Customer Compliance Center`
+  - [`Customer Compliance Center`](https://aws.amazon.com/compliance/customer-center/) - Contains resources to help you learn more about AWS compliance.
+  - Read customer compliance stories to discover how companies in regulated industries have solved various compliance, governance, and audit challenges.
+  - `Access compliance whitepapers and documentation` on topics such as:
+    - `AWS answers to key compliance questions.`
+    - `An overview of AWS risk and compliance.`
+    - `An auditing security checklist.`
+  - Includes an auditor `learning path`.
+  - this `learning path` is designed for individuals in auditing, compliance, and legal roles who want to learn more about how their internal operations can demonstrate compliance using the AWS Cloud.
+
+## `4.5 Denial-of-Service Attacks`
+
+## `4.6 Additional Security Services`
+
+## `Additional Resources`
+
+- (``)[]
