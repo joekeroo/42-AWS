@@ -10,3 +10,4 @@
 - [`Module 4: Networking`](ModuleFour.md)
 - [`Module 5: Storage and Databases`](ModuleFive.md)
 - [`Module 6: Security`](ModuleSix.md)
+- [`Module 7: Monitoring and Analytics`](ModuleSeven.md)
