@@ -111,10 +111,60 @@
   - Includes an auditor `learning path`.
   - this `learning path` is designed for individuals in auditing, compliance, and legal roles who want to learn more about how their internal operations can demonstrate compliance using the AWS Cloud.
 
-## `4.5 Denial-of-Service Attacks`
+## `4.5 Designated Denial-of-Service Attacks (DDoS Attack)`
+
+- ### `Denial-of-Service Attacks`
+
+  - A deliberate attempt to make a website or application unavailable to users.
+  - `Example`: an attacker floods a website or application with excessive network traffic until the targeted website or application becomes overloaded and is no longer able to respond.
+
+    ![Denial-of-Service Attacks](assets/ModuleSix/denial-of-service-attack.png)
+
+- ### `Distributed Denial-of-Service Attacks`
+
+  - Multiple sources are used to start an attack that aims to make a website or application unavailable.
+  - `Example`: attacker/attackers can use multiple infected computers (also known as “bots”) to send excessive traffic to a website or application.
+
+    ![Distributed Denial-of-Service Attacks](assets/ModuleSix/distributed-denial-of-service-attack.png)
+
+- ### `AWS Shield`
+  - Service that protects applications against DDoS attacks.
+  - #### `AWS Shield Standard`
+    - Automatically protects all AWS customers at no cost.
+    - Protects AWS resources from the most common, frequently occurring types of DDoS attacks.
+  - #### `AWS Shield Advance`
+    - Paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks.
+    - Integrates with other services such as `Amazon CloudFront`, `Amazon Route 53`, and `Elastic Load Balancing`.
+    - Integrate AWS Shield with `AWS WAF` by writing `custom rules` to mitigate complex DDoS attacks.
 
 ## `4.6 Additional Security Services`
 
+- ### `AWS Key Management Service (AWS KMS)`
+  - Enables you to perform encryption operations through the use of `cryptographic keys`.
+  - Create, manage, and use `cryptographic keys`.
+  - A `cryptographic key` is a random string of digits used for encrypting and decrypting data.
+  - Choose the specific levels of access control that you need for your keys.
+  - Keys never leave `AWS KMS`, and you are always in control of them.
+- ### `AWS WAF`
+  - Web application firewall that lets you monitor network requests that come into your web applications.
+  - Works together with `Amazon CloudFront` and an `Application Load Balancer`.
+  - Uses [`web ACL`](https://docs.aws.amazon.com/waf/latest/developerguide/web-acl.html) to protect your AWS resources.
+- ### `Amazon Inspector`
+  - Improves the security and compliance of applications by running `automated security assessments`.
+  - Checks applications for security vulnerabilities and deviations from security best practices, such as open access to Amazon EC2 instances and installations of vulnerable software versions.
+- ### `Amazon GuardDuty`
+
+  - Service that provides `intelligent threat detection` for your AWS infrastructure and resources.
+  - Identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
+
+    ![Amazon GuardDuty](assets/ModuleSix/amazon-guardduty.png)
+
 ## `Additional Resources`
 
-- (``)[]
+- [`Security, Identity, and Compliance on AWS`](https://aws.amazon.com/products/security)
+- [`Whitepaper: Introduction to AWS Security`](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html)
+- [`Whitepaper: Amazon Web Services - Overview of Security Processes`](https://docs.aws.amazon.com/whitepapers/latest/aws-overview-security-processes/aws-overview-security-processes.pdf)
+- [`AWS Security Blog`](https://aws.amazon.com/blogs/security/)
+- [`AWS Compliance`](https://aws.amazon.com/compliance)
+- [`AWS Customer Stories: Security, Identity, and Compliance`](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23security-identity-compliance)
+- [`Security best practices in IAM`](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
