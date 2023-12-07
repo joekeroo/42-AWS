@@ -12,3 +12,4 @@
 - [`Module 6: Security`](ModuleSix.md)
 - [`Module 7: Monitoring and Analytics`](ModuleSeven.md)
 - [`Module 8: Pricing and Support`](ModuleEight.md)
+- [`Module 9: Migration and Innovation`](ModuleNine.md)
