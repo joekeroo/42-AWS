@@ -14,3 +14,4 @@
 - [`Module 8: Pricing and Support`](ModuleEight.md)
 - [`Module 9: Migration and Innovation`](ModuleNine.md)
 - [`Module 10: The Cloud Journey`](ModuleTen.md)
+- [`Module 11: AWS Certified Cloud Practitioner Basics`](ModuleEleven.md)
