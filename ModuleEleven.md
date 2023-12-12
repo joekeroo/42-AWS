@@ -18,9 +18,9 @@
   |              Domain               | Percentage of exam |
   | :-------------------------------: | :----------------: |
   |     Domain 1: Cloud Concepts      |        26%         |
-  | Domain 2: Security and Compliance |        26%         |
-  |       Domain 3: Technology        |        26%         |
-  |   Domain 4: Billing and Pricing   |        26%         |
+  | Domain 2: Security and Compliance |        25%         |
+  |       Domain 3: Technology        |        33%         |
+  |   Domain 4: Billing and Pricing   |        16%         |
   |               Total               |        100%        |
 
   You are encouraged to use these benchmarks to help you determine how to allocate your time studying for the exam.
